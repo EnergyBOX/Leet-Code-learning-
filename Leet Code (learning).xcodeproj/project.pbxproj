@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1F6278182B5FF261005BCF23 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6278172B5FF261005BCF23 /* main.swift */; };
+		1F6278212B5FFC95005BCF23 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6278202B5FFC95005BCF23 /* TwoSum.swift */; };
+		1F6278232B6001E0005BCF23 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6278222B6001E0005BCF23 /* PalindromeNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		1F6278142B5FF261005BCF23 /* Leet Code (learning) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leet Code (learning)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6278172B5FF261005BCF23 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1F6278202B5FFC95005BCF23 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		1F6278222B6001E0005BCF23 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				1F6278172B5FF261005BCF23 /* main.swift */,
+				1F6278202B5FFC95005BCF23 /* TwoSum.swift */,
+				1F6278222B6001E0005BCF23 /* PalindromeNumber.swift */,
 			);
 			path = "Leet Code (learning)";
 			sourceTree = "<group>";
@@ -120,6 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6278232B6001E0005BCF23 /* PalindromeNumber.swift in Sources */,
+				1F6278212B5FFC95005BCF23 /* TwoSum.swift in Sources */,
 				1F6278182B5FF261005BCF23 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

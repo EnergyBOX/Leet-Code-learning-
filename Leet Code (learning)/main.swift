@@ -7,5 +7,17 @@
 
 import Foundation
 
-print("Hello, World!")
+class Solution {
+    func isPalindrome(_ x: Int) -> Bool {
+        return String(x) == String(String(x).reversed())
+    }
+}
 
+
+
+var testing = Solution()
+
+//Test case
+var x = 121
+print(testing.isPalindrome(x))
+pause()
