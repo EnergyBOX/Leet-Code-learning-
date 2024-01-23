@@ -8,16 +8,21 @@
 import Foundation
 
 class Solution {
-    func isPalindrome(_ x: Int) -> Bool {
-        return String(x) == String(String(x).reversed())
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        
+        nums = Array(Set(nums)).sorted()
+
+        return Set(nums).count
     }
 }
 
 
+//tast case
+var nums = [1,7,1,2]
 
-var testing = Solution()
+var solution = Solution()
 
-//Test case
-var x = 121
-print(testing.isPalindrome(x))
+print (solution.removeDuplicates(&nums))
+print(nums)
+
 pause()
