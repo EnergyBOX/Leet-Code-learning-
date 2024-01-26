@@ -11,6 +11,8 @@
 		1F6278212B5FFC95005BCF23 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6278202B5FFC95005BCF23 /* TwoSum.swift */; };
 		1F6278232B6001E0005BCF23 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6278222B6001E0005BCF23 /* PalindromeNumber.swift */; };
 		1F6278252B601907005BCF23 /* RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6278242B601907005BCF23 /* RemoveDuplicatesFromSortedArray.swift */; };
+		1F9AD06D2B63CB1A004AFB8E /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AD06C2B63CB1A004AFB8E /* PlusOne.swift */; };
+		1F9AD06F2B63F214004AFB8E /* Sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AD06E2B63F214004AFB8E /* Sqrt(x).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		1F6278202B5FFC95005BCF23 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		1F6278222B6001E0005BCF23 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 		1F6278242B601907005BCF23 /* RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
+		1F9AD06C2B63CB1A004AFB8E /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
+		1F9AD06E2B63F214004AFB8E /* Sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sqrt(x).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				1F6278202B5FFC95005BCF23 /* TwoSum.swift */,
 				1F6278222B6001E0005BCF23 /* PalindromeNumber.swift */,
 				1F6278242B601907005BCF23 /* RemoveDuplicatesFromSortedArray.swift */,
+				1F9AD06C2B63CB1A004AFB8E /* PlusOne.swift */,
+				1F9AD06E2B63F214004AFB8E /* Sqrt(x).swift */,
 			);
 			path = "Leet Code (learning)";
 			sourceTree = "<group>";
@@ -131,8 +137,10 @@
 			files = (
 				1F6278232B6001E0005BCF23 /* PalindromeNumber.swift in Sources */,
 				1F6278252B601907005BCF23 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
+				1F9AD06D2B63CB1A004AFB8E /* PlusOne.swift in Sources */,
 				1F6278212B5FFC95005BCF23 /* TwoSum.swift in Sources */,
 				1F6278182B5FF261005BCF23 /* main.swift in Sources */,
+				1F9AD06F2B63F214004AFB8E /* Sqrt(x).swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
