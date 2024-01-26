@@ -8,21 +8,26 @@
 import Foundation
 
 class Solution {
-    func removeDuplicates(_ nums: inout [Int]) -> Int {
+    func plusOne(_ digits: [Int]) -> [Int] {
         
-        nums = Array(Set(nums)).sorted()
-
-        return Set(nums).count
+        var arr = digits
+        var i = 1
+        while arr[arr.count-i] == 9 {
+            arr[arr.count-i] = 0
+            if arr.count-i == 0 { arr.insert(0, at: 0)}
+            i += 1
+        }
+        arr[arr.count-i] += 1
+        return arr
     }
 }
 
 
-//tast case
-var nums = [1,7,1,2]
+var digits = [9, 9, 9, 9]
+var someSol = Solution()
 
-var solution = Solution()
+print("\(someSol.plusOne(digits))")
 
-print (solution.removeDuplicates(&nums))
-print(nums)
+
 
 pause()
